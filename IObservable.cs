@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Design_Patterns_Observer_CSHARP
 {
+    // Интерфейс агрегатора, для подписки, отписки, уведомления получателей
     public interface IObservable
     {
         void Subscribe(IObserver observer);
